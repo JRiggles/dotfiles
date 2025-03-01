@@ -1,0 +1,39 @@
+# update
+auto-update = check
+auto-update-channel = stable
+
+# appearance
+background-blur = true
+background-opacity = 0.80
+theme = FlatUI
+unfocused-split-opacity = 0.25
+window-colorspace = display-p3
+window-padding-color = background
+window-padding-x = 10
+window-padding-y = 10,0
+# Optional custom shader:
+# custom-shader = ghostty-shaders/bettercrt.glsl
+
+# window and behavior
+initial-window = false
+confirm-close-surface = false
+mouse-hide-while-typing = true
+shell-integration-features = true
+# command = ~/.config/ghostty/onlaunch.sh
+
+# macOS-specific
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+macos-titlebar-style = tabs
+# macOS icon settings:
+macos-icon = xray
+# macos-icon-frame = aluminum | beige | plastic | chrome
+# macos-icon-ghost-color = #RRGGBB | RRGGBB | X11 named color
+# macos-icon-screen-color = #RRGGBB | RRGGBB | X11 named color
+
+# macos-icon-frame = beige
+# macos-icon-ghost-color = 002200
+# macos-icon-screen-color = 00FF00
+
+# keybinds
+keybind = global:cmd+grave_accent=toggle_quick_terminal
