@@ -37,3 +37,5 @@ macos-icon = xray
 
 # keybinds
 keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = cmd+s=new_split:right
+keybind = cmd+shift+s=new_split:down
